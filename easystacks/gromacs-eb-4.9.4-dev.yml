@@ -1,4 +1,4 @@
 easyconfigs:
   - GROMACS-foss-2023b.eb:
       options:
-        software-commit: h5md-protype-release-1
+        software-commit: fcc10d133b3411c9f3912b381f12a8e7515cf2dd # h5md-protype-release-1 tag/release
