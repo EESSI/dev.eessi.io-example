@@ -5,3 +5,6 @@ easyconfigs:
   - git-2.43.5-GCCcore-13.2.0-software-commit.eb:
       options:
         software-commit: 664d4fa692cb8637a7c9297c94abf0de8593e585 # release 2.45.6
+  - git-2.43.5-GCCcore-13.2.0-software-commit.eb:
+      options:
+        software-commit: 1f2e64e22dee75db96b92d526d14003ba59a154e # release 2.43.4
