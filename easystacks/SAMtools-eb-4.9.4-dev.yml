@@ -1,0 +1,4 @@
+easyconfigs:
+  - SAMtools-1.21-GCC-13.2.0-software-commit.eb:
+      options:
+        software-commit: ec8bf989bd852cf46901b3e1a7d06d6fa10a79ff # different commit but same as release 1.21
