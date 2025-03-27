@@ -5,4 +5,4 @@ easyconfigs:
         from-commit: 8bd1967dcebdb9100643ea5b8b2974463a50a22d # Included recently added Go
   - gh-software-commit.eb:
       options:
-        software-commit:  # two commits after  2.67.0
+        software-commit: e516e5ed5db056653dbb1dd141e4c714555a5967 # two commits after  2.67.0
