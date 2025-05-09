@@ -1,0 +1,6 @@
+easyconfigs:
+  - GROMACS-2024.3-foss-2023b-software-commit.eb:
+      options:
+        # h5dm prototype tag
+        # see https://github.com/gromacs/gromacs/releases/tag/h5md-protype-release-1
+        software-commit: fcc10d133b3411c9f3912b381f12a8e7515cf2dd
