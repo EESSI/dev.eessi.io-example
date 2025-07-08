@@ -1,0 +1,28 @@
+easyblock = 'GoPackage'
+
+name = 'gh'
+version = '2.67.0'
+versionsuffix = '-%(software_commit)s'
+
+homepage = 'https://github.com/cli/'
+description = "GitHub’s official command line tool"
+
+toolchain = SYSTEM
+
+source_urls = ['https://github.com/cli/cli/archive/']
+sources = ['%(software_commit)s.tar.gz']
+
+builddependencies = [
+    ('Go', '1.23.6')
+]
+
+installopts = './cmd/%(name)s'
+
+sanity_check_paths = {
+    'files': ['bin/%(name)s'],
+    'dirs': []
+}
+
+sanity_check_commands = ['%(name)s --version']
+
+moduleclass = 'tools'
