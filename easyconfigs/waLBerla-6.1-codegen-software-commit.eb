@@ -15,8 +15,8 @@ toolchainopts = {'usempi': True, 'pic': True}
 sources = [
 {
     'source_urls': ['https://i10git.cs.fau.de/api/v4/projects/walberla%2Fwalberla/repository/archive?sha='],
-    'filename': '%(software_commit)s',
-    'download_filename': '%(software_commit)s.tar.gz',
+    'download_filename': '%(software_commit)s',
+    'filename': '%(software_commit)s.tar.gz',
 },
 ]
 patches = [
