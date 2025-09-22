@@ -21,10 +21,6 @@ sources = [
 patches = [
     'waLBerla-6.1-codegen-fix-missing-cstint.patch',
 ]
-checksums = [
-    {'waLBerla-6.1-codegen-fix-missing-cstint.patch':
-     'c15fc9e1a1060e7e55be14023486824d9bac73096ce27199301627de5c69d5bb'},
-]
 
 builddependencies = [
     ('CMake', '3.27.6'), 
