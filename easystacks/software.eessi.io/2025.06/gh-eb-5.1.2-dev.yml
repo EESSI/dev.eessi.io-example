@@ -1,0 +1,4 @@
+easyconfigs:
+  - gh-2.67.0-software-commit.eb:
+      options:
+        software-commit: 6b19a854710ff2c81070f109f35434cd20e40115 # 2.79.0
