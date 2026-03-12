@@ -1,0 +1,5 @@
+easyconfigs:
+  - Go-1.23.6.eb
+  - gh-2.67.0-software-commit.eb:
+      options:
+        software-commit: 89512590addc159fff0f13acca811d803d592ff9 # 2.78.0
